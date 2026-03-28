@@ -6,6 +6,9 @@ from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import OllamaEmbeddings
 from langchain_community.llms import Ollama
 
+
+st.title("My Personal AI App")
+st.write("Hello! Your app is deployed 🚀")
 st.set_page_config(page_title="RAG Chatbot", layout="wide")
 
 st.title("📄 Your Personal Chatbot ")
